@@ -1,0 +1,33 @@
+/* styles for HomePage.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Disable scrolling */
+}
+
+.home-container {
+  background-color: #87ceeb; /* Light blue color */
+  text-align: center;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  box-sizing: border-box; /* Include padding in the height calculation */
+}
+
+.home-content {
+  margin-top: 20px;
+  color: #333; /* Dark text color */
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin-left: auto; /* Center content */
+  margin-right: auto; /* Center content */
+  /* Add more styling as needed */
+}
+.main-header {
+  font-family: "Roboto", "Open Sans", "Lato", "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 10px;
+}
